@@ -12,7 +12,9 @@ The Polling library schedules ripetitive activities using 1 ms precision.
 ```
   or, more simple:
   ```
-        task task1		= {10000, 4000, loop2, RUNNING}; 
-                            // every 4 seconds does loop2() ```
+        ask task1 = {10000, 4000, loop2, RUNNING}; 
+                            // every 4 seconds does loop2()
+  ```
+ -  In general a task is called at time = startTime + k * period
  
- - In general a task is called at time = startTime + k * period
+ See examples.
