@@ -10,11 +10,16 @@ The Polling library schedules ripetitive activities using 1 ms precision.
         task1.status    = RUNNING;    
          // one of RUNNING | WAITING | WORKTIME | ONESHOOT | DELETED
 ```
+
   or, more simple:
   ```
-        ask task1 = {10000, 4000, loop2, RUNNING}; 
+        task task1 = {10000, 4000, loop2, RUNNING}; 
                             // every 4 seconds does loop2()
   ```
+  
  -  In general a task is called at time = startTime + k * period
+ -  We can modify dynamically the task's fields to do special beavoir
+ -  The code is optimized for smallest footprint.
+ -  Developped and tested on Arduino Yùn
  
  See examples.
