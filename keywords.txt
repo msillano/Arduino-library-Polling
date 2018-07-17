@@ -7,9 +7,9 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-loopFunction KEYWORD1
-task         KEYWORD1
-_task_ptr    KEYWORD1
+loopFunction	KEYWORD1
+task	KEYWORD1
+_task_ptr	KEYWORD1
 
 
 #######################################
@@ -23,17 +23,17 @@ Polling	KEYWORD3
 # Methods and Functions (KEYWORD2)
 #######################################
 
-begin   	    KEYWORD2
-add  	        KEYWORD2
-loopPolling	    KEYWORD2
+begin	KEYWORD2
+add	KEYWORD2
+loopPolling	KEYWORD2
 _compareTask	KEYWORD2
-_adjustTime 	KEYWORD2
+_adjustTime	KEYWORD2
 
 
 #######################################
 # Constants (LITERAL1)
 #######################################
 
-WAITING	 LITERAL1
-RUNNING	 LITERAL1
-ONESHOOT LITERAL1
+WAITING	LITERAL1
+RUNNING	LITERAL1
+ONESHOOT	LITERAL1
